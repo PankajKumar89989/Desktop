@@ -1,0 +1,12 @@
+char * myfunc(char*ptr)
+{
+    ptr+=3;
+    return(ptr);
+}
+void main()
+{
+    char*x,*y;
+    x="PREPBYTES"
+    Y=myfunc(x);
+    printf("y=%s",y);
+}

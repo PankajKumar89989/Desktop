@@ -1,0 +1,12 @@
+#include<stdio.h>
+ int main(){
+ float dkm,dm=1000,df,di,dcm;
+ printf("The distance between two cities");
+ scanf("%f",&dkm);
+df=1000*3.28;
+di=1000*2.54;
+dcm=1000*100;
+dkm=1000/1000;
+printf("The distance between two cities %f , %f , %f ,%f , %f",dkm,dm,df,di,dcm);
+return 0;
+}

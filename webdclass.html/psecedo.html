@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <form name="f1" onsubmit="return f() " >
+           Enter Name :<input type="text" name="nm"/><br/>
+           <!-- <input type="button" value="submit"/> -->
+           <button> submit </button>
+       </form>
+       <script>
+           function f(){
+            var x=document.f1.nm.value;
+               alert("Hii"+x);
+               return true;j
+           }
+       </script>
+   </body>
+</html>

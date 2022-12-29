@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p  id="para1">Para1</p>
+    <p class="para2">Para2</p>
+    <script>
+        function change(){
+            var x=document.getElementById("para1").innerText;
+            console.log(x);
+            if(x==x.toUpperCase())
+              console.log("true");
+            else
+              {
+                console.log("false");
+                document.getElementById("para1").innerText=x.toUpperCase();
+              }
+
+            var y=document.getElementsByClassName("para2");
+            console.log(y);
+            y=document.getElementsByClassName("para2")[0];
+            console.log(y);
+            y=document.getElementsByClassName("para2")[0].innerText;
+            console.log(y);
+            
+        }
+        change();
+        
+        
+
+    </script>
+</body>
+</html>

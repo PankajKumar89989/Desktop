@@ -1,0 +1,15 @@
+html{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0a192f;
+    color: white;
+
+}
+.container{
+    width: 400px;
+}
+.paragraph-styling{
+    margin: 10;
+    cursor: pointer;
+    
+}

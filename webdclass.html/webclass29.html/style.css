@@ -1,0 +1,35 @@
+*{
+    text-decoration: none;
+}
+.container-fluid{
+    border:1px;
+}
+.row {
+    border:1px;
+    padding: 10x 0 10x 10x;
+}
+.col{
+    border:1px;
+}
+#mid{
+    background: black;
+    padding: 3x 0;
+}
+.btn btn-success{
+    background: black;
+    padding: 3x 0;
+}
+#mid ul{
+    list-style: none;
+    margin:0px;
+}
+#mid ul li{
+    display: inline-block;
+}
+#mid ul li a{
+    color:white;
+    text-decoration: none;
+}
+#id2 h6{
+    padding:10px 0 10x 10x;
+}

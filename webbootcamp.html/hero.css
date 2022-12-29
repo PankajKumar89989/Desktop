@@ -1,0 +1,129 @@
+*{
+    background:linear-gradient(rgb(255, 192, 246),rgb(255, 255, 255));
+    color: red;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+nav{
+   text-align: right; 
+   flex: 1;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+    font-size: 25px;
+    color: white;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile{
+    border-radius: 100%;
+    width: 60%;
+}
+.left{
+    text-align: left;
+}
+.btn{
+    background-color: #27AE60;
+    padding: 1rem;
+    border-radius: 50px;
+}
+.btn-primary{
+    background-color:greenyellow;
+    border-radius: 50px;
+    
+
+}
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-col{
+    padding: 2rem;
+}
+.whatido-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.whatido-col{
+    padding: 2rem;
+    background-color: #212121;
+    width: 20%;
+    border-radius: 5%;
+    word-wrap:break-word;
+}
+.skills-row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #212121;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+}
+.ji{
+    margin: 10px;
+}
+.skills-col{
+    padding: 2rem;
+    background-color: #212121;
+}
+.getintouch{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+input{
+    padding: 1rem;
+    width: 40%;
+}
+.but{
+    margin: 2rem;
+}
+.grey{
+    color: #535353;
+}
+.grey-bg{
+    background-color: #212121;
+}
+.green{
+    color: #27AE60;
+    font-size: larger;
+}
+@media screen and(max-width:412px) {
+    font-direction : column;
+    
+}
